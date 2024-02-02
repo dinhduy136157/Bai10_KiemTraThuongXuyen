@@ -1,0 +1,14 @@
+﻿<Application x:Class="Cau1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Cau1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="dgcCenter" TargetType="TextBlock">
+            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="dgcRight" TargetType="TextBlock">
+            <Setter Property="TextBlock.TextAlignment" Value="Right" />
+        </Style>     
+    </Application.Resources>
+</Application>
